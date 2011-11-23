@@ -1,6 +1,21 @@
 TweetCalendar::Application.routes.draw do
-  get "home/index"
+  root :to => "pages#home"
+  
+  resources :pages
+  
+  match "about" => "pages#about"
+  match "contact" => "pages#contact"
+  
+  get "pages/home"
 
+  get "pages/contact"
+
+  get "pages/about"
+  
+  
+  
+
+  
   # The priority is based upon order of creation:
   # first created -> highest priority.
 

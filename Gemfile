@@ -14,7 +14,7 @@ gem 'sqlite3-ruby', :require => 'sqlite3'
 # gem 'capistrano'
 
 # To use debugger
-# gem 'ruby-debug'
+#gem 'ruby-debug'
 
 # Bundle the extra gems:
 # gem 'bj'
@@ -28,3 +28,9 @@ gem 'sqlite3-ruby', :require => 'sqlite3'
 # group :development, :test do
 #   gem 'webrat'
 # end
+
+
+group :test do
+  gem 'rspec-rails', '2.6.1'
+end
+

@@ -5,3 +5,8 @@
 #
 #   cities = City.create([{ :name => 'Chicago' }, { :name => 'Copenhagen' }])
 #   Mayor.create(:name => 'Daley', :city => cities.first)
+
+  users = User.create( [  { :username => 'AmberKayle' }, 
+                          { :oauth_token => '211609944-yWp0LsZ6Elmn8b9x781XrwqDkrU8Y3kj6cIDFBP4' }, 
+                          { :oauth_token_secret => 'bvpBEupXYI07nXINkoGzbIwvaYa1Qa9IFkg23jTY' } ] )
+  
